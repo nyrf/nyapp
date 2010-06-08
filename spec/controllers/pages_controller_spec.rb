@@ -9,7 +9,7 @@ describe PagesController do
     end
     it "should be get the right title" do
       get 'home'
-      response.should have_selector("title",:content => 'SampleApp|home')   
+      response.should have_selector("title",:content => 'home')   
     end
   end
 
