@@ -4,12 +4,12 @@ gem 'rails', '3.0.0.beta3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem "rspec-rails", ">= 2.0.0.beta.8"
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-
+gem "autotest-rails"
 # Deploy with Capistrano
 # gem 'capistrano'
 
